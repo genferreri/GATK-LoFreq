@@ -1,4 +1,4 @@
-## This script will construct the table to start the analysis.
+## This script will construct the table to do the variant analysis and plotting in R.
 ##Takes input from LoFreq Variant analysis workflow
 #setwd("/Users/lucasmatiasferreri/Documents/226variantAnalysis/Files/7dpi/DC7dpi-varLQ")
 
