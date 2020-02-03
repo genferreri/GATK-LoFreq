@@ -39,4 +39,4 @@ rm *_AF.Cov.in*
 rm *_AF.Cov
 
 #Produce file for SNPdat
-cat "$NAME1"_AF.Cov.final.tsv | awk 'NR>1' | awk 'BEGIN{OFS"\t"} {print $1 "\t" $2 "\t" $5}' > "$NAME1".AF.Cov.ALT.vcf.txt
+cat "$NAME1"_AF.Cov.final.tsv | awk 'NR>1' | awk 'BEGIN{OFS"\t"} {print $1 "\t" $2 "\t" $5}' > "$NAME1"_AF.Cov.ALT.vcf.txt
